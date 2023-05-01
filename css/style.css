@@ -317,9 +317,7 @@ p {
   color: #252b42;
   padding-top: 125px;
 }
-.form {
-    position: relative;
-}
+
 .advice p {
   padding-top: 40px;
 }
@@ -423,19 +421,8 @@ flex-direction: column;
     }
     
    
-    .sub {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
-        height: 100vh;
-        margin-left: -200px;
-    }
-    form input {
-        display: flex;
-flex-direction: column;
-margin-left: -650px;
-    }
+  
+  
 }
 
 
@@ -545,9 +532,8 @@ margin-left: -650px;
 
 .sub {
   width: 1200px;
-  height: 125px;
+  height: 225px;
   background: #16697a;
-  margin-top: 86px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -555,20 +541,27 @@ margin-left: -650px;
   padding-left: 50px;
   padding-right: 50px;
   flex-wrap: wrap;
+  margin-top: 50px;
 }
+
+.xato {
+    display: flex;
+    padding-bottom: 90px;
+}
+
 #email {
-  border-radius: 5px;
-  padding: 15px 250px 15px 20px;
-  background: #f9f9f9;
-  border: 1px solid #e6e6e6;
+    border-radius: 5px;
+    padding: 15px 250px 15px 20px;
+    background: #f9f9f9;
+    border: 1px solid #e6e6e6;
 }
 
 #submit {
-  margin-left: -10px;
-  border-radius: 5px;
-  border: none;
-  border: 1px solid #e6e6e6;
-  padding: 15px 22px;
+    margin-left: -10px;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid #e6e6e6;
+    padding: 15px 22px;
 }
 
 #submit:hover {
@@ -578,7 +571,7 @@ margin-left: -650px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 110px;
+  gap: 90px;
   padding-top: 120px;
   flex-wrap: wrap;
 }
@@ -598,9 +591,11 @@ margin-left: -650px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 300px;
 }
 .Contact h3 {
   padding-top: 80px;
+ 
 }
 .Contact p {
   padding-top: 10px;
